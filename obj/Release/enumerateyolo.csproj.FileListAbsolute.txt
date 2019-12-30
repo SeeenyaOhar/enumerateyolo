@@ -1,0 +1,6 @@
+C:\Users\senya\source\repos\enumerateyolo\enumerateyolo\obj\Release\enumerateyolo.csprojAssemblyReference.cache
+C:\Users\senya\source\repos\enumerateyolo\enumerateyolo\bin\Release\enumerateyolo.exe.config
+C:\Users\senya\source\repos\enumerateyolo\enumerateyolo\bin\Release\enumerateyolo.exe
+C:\Users\senya\source\repos\enumerateyolo\enumerateyolo\bin\Release\enumerateyolo.pdb
+C:\Users\senya\source\repos\enumerateyolo\enumerateyolo\obj\Release\enumerateyolo.exe
+C:\Users\senya\source\repos\enumerateyolo\enumerateyolo\obj\Release\enumerateyolo.pdb

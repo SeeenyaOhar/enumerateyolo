@@ -30,9 +30,19 @@ namespace enumerateyolo
                 var filename = file.Split(new[] { '.' }, StringSplitOptions.RemoveEmptyEntries);
                 if (filename[1] == "jpg")
                 {
-                    if (File.Exists(filename[0] + ".xml"))
+                    if (File.Exists(filename[0] + ".txt"))
                     {
-                        validfiles.Add(file);
+                        var pathsplit = file.Split(new[] { '\\' }, StringSplitOptions.RemoveEmptyEntries);
+                        var count = pathsplit.Length;
+                        int removesplit = count - 2;
+                        List<String> pathlist = pathsplit.ToList();
+                        pathlist.RemoveRange(0, removesplit - 1);
+                        StringBuilder builder = new StringBuilder();
+                        foreach(var v in pathlist)
+                        {
+                            builder.Append('\\' + v);
+                        }
+                        validfiles.Add(builder.ToString());
                     }
                 }
                 // Then check if there is an xml file with the same nameB which is related to the given image
